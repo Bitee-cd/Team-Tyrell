@@ -1,10 +1,13 @@
-
-import './Styled Components/App.css';
+import Button from "./Components/Button";
+import "./Styled Components/App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Team Tyrell: First Person to Clone should delete this</h1>
+      <div className="btn">
+        <Button text="Google Search" />
+        <Button text="I'm feeling lucky" />
+      </div>
     </div>
   );
 }
