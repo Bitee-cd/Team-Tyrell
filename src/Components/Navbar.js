@@ -4,7 +4,7 @@ import '../Styled Components/Navbar.css';
 
 function Navbar() {
   return (
-    <div>
+    <div className='nav_container'>
       <nav>
         <a href='https://internship.sidehustle.ng/' >SideHustle</a>
         <a href='https://instagram.com/sidehustleinternship?igshid=1sb7ei0owciam'>Images</a>

@@ -5,9 +5,11 @@ import MicIcon from "@material-ui/icons/Mic";
 import img from "../img/logo.png";
 
 function Search() {
-  const [input, setInput] = useState("");
-  const h1 = <h1>{input}</h1>;
-  const image = <img src={img} alt="logo" />;
+
+    const [input, setInput] = useState("")
+    const h1 = <div className='h1_container'><h1>{input}</h1></div>
+    const image = <div className='img_container'><img src={img} alt="logo"/></div>
+
 
   return (
     <div className="search">
