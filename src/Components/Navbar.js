@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Styled Components/Navbar.css';
-import Googledots from '../img/google_dots.jpg';
-import Sidehustlelogo from '../img/logo.png';
+
 
 function Navbar() {
   return (
@@ -9,8 +8,14 @@ function Navbar() {
       <nav>
         <a href='https://internship.sidehustle.ng/' >SideHustle</a>
         <a href='https://instagram.com/sidehustleinternship?igshid=1sb7ei0owciam'>Images</a>
-        <img src={Googledots} alt='dots'></img>
-        <img src={Sidehustlelogo} alt='logo'></img>
+        <div className="navImages dots">
+        <img src="https://static.thenounproject.com/png/10563-200.png" alt='dots'></img>
+        </div>
+        <div className="navImages avatar">
+        <img src="https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg" alt='logo'></img>
+        </div>
+       
+        
       </nav>
     </div>
   )

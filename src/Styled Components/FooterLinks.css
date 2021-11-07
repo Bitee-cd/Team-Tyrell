@@ -1,0 +1,15 @@
+.footerLinks a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: grey;
+}
+.footerLinks a:hover {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 490px) {
+  .footerLinks a {
+    padding: 0 3px;
+  }
+}

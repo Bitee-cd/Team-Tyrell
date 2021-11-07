@@ -1,53 +1,55 @@
 .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-    .logo h1 {
-        font-size: 4.8vw;
-        background: linear-gradient(to top, #398d43, #7fc377);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+.logo h1 {
+  font-size: 4.8vw;
+  background: linear-gradient(to top, #398d43, #7fc377);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-        @media (max-width: 720px) {
-            .logo h1 {
-                font-size: 2rem;
-            }
-        }
+.logo img {
+  width: clamp(200px, 60%, 700px);
+  height: 20%;
+}
 
-    .logo img {
-        width: clamp(200px, 30%, 500px);
-        height: 20%;
-    }
-    
 .input_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: clamp(100px, 75vw, 560px);
-    height: 30px;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px 20px;
-
-    border: 1px solid lightgray;
-    border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(100px, 75vw, 560px);
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
 }
 
-    .input_icon {
-        color: gray;
-    }
+.input_icon {
+  color: gray;
+}
 
-    .input_container > input {
-        flex: 1;
-        font-size: medium;
-        border: none;
-    }
+.input_container > input {
+  flex: 1;
+  font-size: medium;
+  border: none;
+}
 
-    .input_container > input:focus {
-        outline: none;
-    }
+.input_container > input:focus {
+  outline: none;
+}
+
+@media (max-width: 490px) {
+  .input_container {
+    height: 20px;
+    margin-top: 15px;
+    padding: 10px 5px;
+  }
+  .MuiSvgIcon-root {
+    height: 12px;
+  }
+}
