@@ -30,7 +30,7 @@
 .logo img {
   width: clamp(200px, 30%, 500px);
   height: 20%;
-=======
+}
 .img_container {
   width: 100%;
   height: 20vh;
