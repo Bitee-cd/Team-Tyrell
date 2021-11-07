@@ -43,4 +43,7 @@ hr {
   .footer p {
     margin: 5px;
   }
+  .middle img {
+    height: 10px;
+  }
 }
