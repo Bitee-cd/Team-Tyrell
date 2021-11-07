@@ -65,6 +65,11 @@ a:hover {
   }
   nav a {
     margin-top: 0.3rem;
+    font-size:7px;
+    margin-left:5px;
+  }
+  nav img{
+    margin-left:5px;
   }
   .dots img {
     height: 10px;
