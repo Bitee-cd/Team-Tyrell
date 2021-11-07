@@ -6,13 +6,43 @@
 
 .body {
   width: clamp(200px, 80vw, 100%);
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 15px;
   gap: 0.75rem;
+}
+.languages {
+  display: grid;
+  place-items: center;
+}
+.bodyLanguages {
+  display: flex;
+}
+.bodyLanguages a {
+  text-decoration: none;
+  padding-left: 10px;
+  font: 10px;
+}
+@media (max-width: 768px) {
+  a,
+  p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 490px) {
+  a,
+  p {
+    font-size: 7.5px;
+  }
+  .btn {
+    margin-top: 5px;
+  }
+  .bodyLanguages p {
+    padding-top: 7.5px;
+  }
 }
