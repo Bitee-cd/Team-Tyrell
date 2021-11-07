@@ -1,12 +1,14 @@
-import React from 'react'
-import '../Styled Components/Languages.css'
+import React from "react";
+import "../Styled Components/Languages.css";
 
-function Languages({language}) {
-    return (
-        <div className="lang">
-          <a href="#">{language}</a>  
-        </div>
-    )
+function Languages({ language }) {
+  return (
+    <div className="lang">
+      <a href="https://en.wikipedia.org/wiki/Languages_of_Nigeria">
+        {language}
+      </a>
+    </div>
+  );
 }
 
-export default Languages
+export default Languages;

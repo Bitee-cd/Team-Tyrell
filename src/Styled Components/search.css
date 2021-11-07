@@ -31,7 +31,7 @@
   height: 30px;
   margin: 0 auto;
   margin-top: 30px;
-  padding: 10px 20px;
+  padding: 22px 20px;
 
   border: 1px solid lightgray;
   border-radius: 999px;
@@ -44,6 +44,28 @@
 
 .mic-icon {
   cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  .input_container {
+    position: relative;
+    padding: 1.2rem 5rem;
+    overflow: hidden;
+  }
+
+  .input_icon {
+    position: absolute;
+    left: 0;
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+  }
+
+  .mic-icon {
+    position: absolute;
+    right: 0;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+  }
 }
 
 .input_container > input {
